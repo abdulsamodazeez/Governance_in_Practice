@@ -1,0 +1,33 @@
+{
+  "identification": {
+    "dataset_id": "HarvestNet-ET-2024",
+    "title": "HarvestNet: Smallholder farming activity detection (Ethiopia - Tigray, Amhara)",
+    "domain": "agriculture",
+    "geography": "Ethiopia (Tigray, Amhara)"
+  },
+  "consent": {
+    "consent_type": "household",
+    "consent_scope": "Ground labels and imagery for smallholder harvest-pile detection; consent obtained for ground data collection per project protocol; satellite imagery from commercial/provider terms.",
+    "consent_documented": true,
+    "consent_language": "Local languages (e.g. Tigrinya, Amharic)"
+  },
+  "permitted_use": {
+    "research_allowed": true,
+    "commercial_use_allowed": false,
+    "model_training_allowed": true,
+    "redistribution_allowed": false,
+    "use_restrictions": "Academic/research use; see AAAI 2024 paper and dataset repository for terms. 7,000 hand-labeled images; 2,000 ground labels; 2020-2023."
+  },
+  "provenance": {
+    "collector_org": "HarvestNet project (see AAAI 2024 paper for affiliations)",
+    "collection_date_start": "2020-01-01",
+    "collection_date_end": "2023-12-31",
+    "version": "1.0",
+    "last_updated": "2024-01-01"
+  },
+  "audit": {
+    "contact_email": "",
+    "governance_review_date": "2025-02-19",
+    "notes": "Governance record filled for DSA 2026 workshop application. Community/smallholder context; remote sensing + ground labels; Ethiopia."
+  }
+}

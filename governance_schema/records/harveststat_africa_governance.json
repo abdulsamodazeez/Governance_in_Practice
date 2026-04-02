@@ -1,0 +1,33 @@
+{
+  "identification": {
+    "dataset_id": "10.5061/dryad.vq83bk42w",
+    "title": "HarvestStat Africa - Harmonized Subnational Crop Statistics for Sub-Saharan Africa",
+    "domain": "agriculture",
+    "geography": "Sub-Saharan Africa (33 countries)"
+  },
+  "consent": {
+    "consent_type": "institutional",
+    "consent_scope": "Aggregate subnational statistics from national and regional sources; original data collected under country/source institutional agreements (e.g. FEWS-NET, FAO).",
+    "consent_documented": true,
+    "consent_language": "Varies by source country"
+  },
+  "permitted_use": {
+    "research_allowed": true,
+    "commercial_use_allowed": true,
+    "model_training_allowed": true,
+    "redistribution_allowed": true,
+    "use_restrictions": "CC0 (Public Domain). No restrictions; attribution appreciated. See Dryad and Nature Scientific Data descriptor."
+  },
+  "provenance": {
+    "collector_org": "HarvestStat / CIRAD; data derived from USAID FEWS-NET and harmonized",
+    "collection_date_start": "1980-01-01",
+    "collection_date_end": "2022-12-31",
+    "version": "1.0",
+    "last_updated": "2025-04-09"
+  },
+  "audit": {
+    "contact_email": "",
+    "governance_review_date": "2025-02-19",
+    "notes": "Governance record filled for DSA 2026 workshop application. Source: Dryad, Nature Sci Data 2025. Aggregate statistics only; no individual/household data."
+  }
+}

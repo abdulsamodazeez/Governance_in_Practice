@@ -1,0 +1,33 @@
+{
+  "identification": {
+    "dataset_id": "",
+    "title": "",
+    "domain": "agriculture | health | other",
+    "geography": ""
+  },
+  "consent": {
+    "consent_type": "individual | community | household | institutional | not_applicable | unknown",
+    "consent_scope": "",
+    "consent_documented": true,
+    "consent_language": ""
+  },
+  "permitted_use": {
+    "research_allowed": true,
+    "commercial_use_allowed": false,
+    "model_training_allowed": false,
+    "redistribution_allowed": false,
+    "use_restrictions": ""
+  },
+  "provenance": {
+    "collector_org": "",
+    "collection_date_start": "YYYY-MM-DD",
+    "collection_date_end": "YYYY-MM-DD",
+    "version": "",
+    "last_updated": "YYYY-MM-DD"
+  },
+  "audit": {
+    "contact_email": "",
+    "governance_review_date": "YYYY-MM-DD",
+    "notes": ""
+  }
+}

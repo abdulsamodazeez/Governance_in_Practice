@@ -1,0 +1,33 @@
+{
+  "identification": {
+    "dataset_id": "EXAMPLE-AG-001",
+    "title": "Smallholder crop survey (example)",
+    "domain": "agriculture",
+    "geography": "Uganda"
+  },
+  "consent": {
+    "consent_type": "household",
+    "consent_scope": "Survey data for research and anonymised aggregate reporting; no commercial use without separate agreement.",
+    "consent_documented": true,
+    "consent_language": "English, Luganda"
+  },
+  "permitted_use": {
+    "research_allowed": true,
+    "commercial_use_allowed": false,
+    "model_training_allowed": true,
+    "redistribution_allowed": false,
+    "use_restrictions": "Model training only for non-commercial research; no raw data redistribution."
+  },
+  "provenance": {
+    "collector_org": "Example Research Institute",
+    "collection_date_start": "2024-01-01",
+    "collection_date_end": "2024-06-30",
+    "version": "1.0",
+    "last_updated": "2025-02-01"
+  },
+  "audit": {
+    "contact_email": "governance@example.org",
+    "governance_review_date": "2025-02-01",
+    "notes": "Fictional example for DSA 2026 workshop; replace with real dataset when applying."
+  }
+}

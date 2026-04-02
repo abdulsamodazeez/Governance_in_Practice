@@ -1,0 +1,33 @@
+{
+  "identification": {
+    "dataset_id": "zenodo.org/records/14016696",
+    "title": "LSMS-ISA Harmonised Dataset on Agricultural Productivity and Welfare in Sub-Saharan Africa",
+    "domain": "agriculture",
+    "geography": "Ethiopia, Malawi, Mali, Niger, Nigeria, Tanzania, Uganda"
+  },
+  "consent": {
+    "consent_type": "household",
+    "consent_scope": "Household and plot-level surveys; informed consent obtained by national statistical offices (NSOs) per country protocols; data harmonized by World Bank LSMS-ISA.",
+    "consent_documented": true,
+    "consent_language": "Local languages per country (e.g. Amharic, Chichewa, Hausa)"
+  },
+  "permitted_use": {
+    "research_allowed": true,
+    "commercial_use_allowed": false,
+    "model_training_allowed": true,
+    "redistribution_allowed": false,
+    "use_restrictions": "Microdata access via World Bank Microdata Library; registration and terms apply. Research and policy use; no redistribution of microdata; cite country NSOs and World Bank."
+  },
+  "provenance": {
+    "collector_org": "World Bank LSMS-ISA; national statistical offices (Ethiopia, Malawi, Mali, Niger, Nigeria, Tanzania, Uganda)",
+    "collection_date_start": "2008-01-01",
+    "collection_date_end": "2024-12-31",
+    "version": "1.1",
+    "last_updated": "2024-10-01"
+  },
+  "audit": {
+    "contact_email": "lsms@worldbank.org",
+    "governance_review_date": "2025-02-19",
+    "notes": "Governance record filled for DSA 2026 workshop application. Source: Zenodo, Nature Sci Data 2025. Household/plot-level; consent and terms documented by World Bank and country NSOs."
+  }
+}

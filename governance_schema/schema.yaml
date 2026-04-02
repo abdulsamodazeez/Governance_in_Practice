@@ -1,0 +1,44 @@
+# Minimal governance schema for community-level datasets
+# Domain: agriculture / health (African contexts); supports consent-aware ML reuse
+#
+# Required vs optional summary:
+#   Identification: dataset_id, title, domain (required); geography (optional)
+#   Consent: consent_type, consent_scope, consent_documented (required); consent_language (optional)
+#   Permitted use: all four booleans (required); use_restrictions (optional)
+#   Provenance: collector_org (required); dates, version, last_updated (optional)
+#   Audit: all optional (contact_email, governance_review_date, notes)
+
+schema_version: "1.0"
+description: "Fields for documenting consent, permitted use, and provenance."
+
+sections:
+  identification:
+    dataset_id: { type: string, required: true, description: "Unique identifier (e.g. DOI, internal ID)." }
+    title: { type: string, required: true }
+    domain: { type: string, required: true, enum: [agriculture, health, other], description: "Primary domain." }
+    geography: { type: string, required: false, description: "Country/region (e.g. Uganda, East Africa)." }
+
+  consent:
+    consent_type: { type: string, required: true, enum: [individual, community, household, institutional, not_applicable, unknown] }
+    consent_scope: { type: string, required: true, description: "What was consented to (e.g. research only, publication, reuse)." }
+    consent_documented: { type: boolean, required: true, description: "Whether consent is recorded (form, register, etc.)." }
+    consent_language: { type: string, required: false, description: "Language(s) used for consent." }
+
+  permitted_use:
+    research_allowed: { type: boolean, required: true }
+    commercial_use_allowed: { type: boolean, required: true }
+    model_training_allowed: { type: boolean, required: true, description: "Use in ML/AI training (including generative AI)." }
+    redistribution_allowed: { type: boolean, required: true }
+    use_restrictions: { type: string, required: false, description: "Free-text restrictions or conditions." }
+
+  provenance:
+    collector_org: { type: string, required: true }
+    collection_date_start: { type: string, required: false, format: date }
+    collection_date_end: { type: string, required: false, format: date }
+    version: { type: string, required: false }
+    last_updated: { type: string, required: false, format: date }
+
+  audit:
+    contact_email: { type: string, required: false }
+    governance_review_date: { type: string, required: false, format: date }
+    notes: { type: string, required: false }

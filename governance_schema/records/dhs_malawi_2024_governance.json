@@ -1,0 +1,33 @@
+{
+  "identification": {
+    "dataset_id": "MDHS2024",
+    "title": "Malawi Demographic and Health Survey 2024",
+    "domain": "health",
+    "geography": "Malawi"
+  },
+  "consent": {
+    "consent_type": "individual",
+    "consent_scope": "Household and individual interviews; biomarker and specimen collection; informed consent obtained per DHS protocol and host-country ethical approval; data for research and program planning.",
+    "consent_documented": true,
+    "consent_language": "English, Chichewa (local languages per DHS protocol)"
+  },
+  "permitted_use": {
+    "research_allowed": true,
+    "commercial_use_allowed": false,
+    "model_training_allowed": true,
+    "redistribution_allowed": false,
+    "use_restrictions": "DHS Terms of Use: registration required; project-specific use; no commercial use; no redistribution of microdata; no identification of individuals, households, or enumeration areas; results must not identify communities or individuals. Sensitive data (e.g. HIV, GPS) may require additional agreement."
+  },
+  "provenance": {
+    "collector_org": "The DHS Program (ICF); National Statistical Office of Malawi",
+    "collection_date_start": "2024-05-01",
+    "collection_date_end": "2024-08-31",
+    "version": "2024",
+    "last_updated": "2024-12-01"
+  },
+  "audit": {
+    "contact_email": "dhsprogram@dhsprogram.com",
+    "governance_review_date": "2025-02-19",
+    "notes": "Governance record filled for DSA 2026 workshop application. Strong consent and use governance; ideal example for health + African context. 22,414 households; women 15-49, men 15-54; biomarkers (anthropometrics, anemia, malaria, water quality)."
+  }
+}

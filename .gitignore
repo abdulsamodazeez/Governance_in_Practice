@@ -1,0 +1,40 @@
+# Virtual environments
+tool/dsa/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.cursor/
+.vscode/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# Zip archives
+*.zip
+
+# Large PDFs (compiled outputs)
+*.pdf
+
+# Indaba template (not part of the project)
+indaba/
+
+# Screenshots (duplicates of tool screenshots)
+Screenshot*.png
+
+# Latex template (reference only)
+Latex_template_DSA_2026/

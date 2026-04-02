@@ -1,0 +1,33 @@
+{
+  "identification": {
+    "dataset_id": "10.1038/s41597-025-05257-5",
+    "title": "GROW-Africa: An Africa-wide agricultural production database",
+    "domain": "agriculture",
+    "geography": "Africa-wide"
+  },
+  "consent": {
+    "consent_type": "institutional",
+    "consent_scope": "Assimilated from multiple sources: government statistics, household surveys, plot-level measurements; each source has own consent/terms; consolidated dataset for policy and satellite-based measurement.",
+    "consent_documented": true,
+    "consent_language": "Varies by source"
+  },
+  "permitted_use": {
+    "research_allowed": true,
+    "commercial_use_allowed": false,
+    "model_training_allowed": true,
+    "redistribution_allowed": false,
+    "use_restrictions": "See Nature Scientific Data paper and data availability statement. Research and policy use; model training for remote sensing/yield mapping as described in paper."
+  },
+  "provenance": {
+    "collector_org": "Multiple (see Jain et al. Nature Sci Data 2025); assimilated and curated by GROW-Africa team",
+    "collection_date_start": "2000-01-01",
+    "collection_date_end": "2023-12-31",
+    "version": "1.0",
+    "last_updated": "2025-07-01"
+  },
+  "audit": {
+    "contact_email": "",
+    "governance_review_date": "2025-02-19",
+    "notes": "Governance record filled for DSA 2026 workshop application. Multi-source assimilated database; 535,844 georeferenced crop yield observations; 25 crops."
+  }
+}
