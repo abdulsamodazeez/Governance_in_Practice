@@ -22,7 +22,7 @@ The schema is applied to five recent Africa-related datasets: HarvestStat Africa
 │   ├── template.json        # Blank JSON template
 │   ├── RATIONALE.md         # Design rationale for each field
 │   └── records/             # Five filled governance records
-├── datasets/                # Notes on Africa-related datasets (2024–2025)
+├── datasets/                # Notes on Africa-related datasets (2024-2025)
 ├── literature/              # Digested literature review
 ├── tool/                    # Streamlit app for creating and browsing records
 │   ├── app.py
@@ -32,12 +32,11 @@ The schema is applied to five recent Africa-related datasets: HarvestStat Africa
 │   ├── main.tex
 │   ├── references.bib
 │   └── dsa2026.sty
-├── DLI2026_paper/           # LaTeX source for the DLI 2026 submission (IJCAI format)
-│   ├── main.tex
-│   ├── references.bib
-│   ├── ijcai26.sty
-│   └── named.bst
-└── paper/                   # Early paper draft (Markdown)
+└── DLI2026_paper/           # LaTeX source for the DLI 2026 submission (IJCAI format)
+    ├── main.tex
+    ├── references.bib
+    ├── ijcai26.sty
+    └── named.bst
 ```
 
 ## Streamlit Tool
