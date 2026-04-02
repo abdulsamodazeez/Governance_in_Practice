@@ -2,8 +2,6 @@
 
 **A Minimal Schema for Consent and Reuse of Community Data in African Agriculture and Health**
 
-This repository contains the governance schema, filled records, Streamlit tool, and paper source for the DSA 2026 Workshop submission.
-
 ## Overview
 
 Community-level datasets in African agriculture and health remain underused because consent, permitted reuse, and machine-readable metadata are rarely clear. This project introduces a minimal governance schema that records:
@@ -12,7 +10,7 @@ Community-level datasets in African agriculture and health remain underused beca
 2. **Permitted use** (research, commercial, model training, redistribution)
 3. **Provenance** and audit information
 
-The schema is applied to five recent Africa-related datasets: HarvestStat Africa, LSMS-ISA harmonised, GROW-Africa, Malawi DHS 2024, and HarvestNet (Ethiopia).
+The schema is applied to five recent Africa-related datasets: HarvestStat Africa, LSMS-ISA harmonised, GROW-Africa, Malawi DHS 2024, and HarvestNet (Ethiopia). A Streamlit tool is provided for creating, validating, and browsing governance records.
 
 ## Repository Structure
 
@@ -28,16 +26,22 @@ The schema is applied to five recent Africa-related datasets: HarvestStat Africa
 │   ├── app.py
 │   ├── requirements.txt
 │   └── README.md
-├── DSA2026_paper/           # LaTeX source for the DSA 2026 workshop paper
-│   ├── main.tex
-│   ├── references.bib
-│   └── dsa2026.sty
-└── DLI2026_paper/           # LaTeX source for the DLI 2026 submission (IJCAI format)
-    ├── main.tex
-    ├── references.bib
-    ├── ijcai26.sty
-    └── named.bst
+└── papers/                  # Paper sources for conference submissions
+    ├── dsa2026/             # DSA 2026 Workshop (short paper)
+    └── dli2026/             # Deep Learning Indaba 2026 (IJCAI format)
 ```
+
+## Schema
+
+The schema has five sections:
+
+| Section        | Required fields                              | Optional fields                  |
+|----------------|----------------------------------------------|----------------------------------|
+| Identification | dataset_id, title, domain                    | geography                        |
+| Consent        | consent_type, scope, documented              | consent_language                 |
+| Permitted use  | research, commercial, model_training, redist | use_restrictions                 |
+| Provenance     | collector_org                                | dates, version, last_updated     |
+| Audit          | (none)                                       | contact, review_date, notes      |
 
 ## Streamlit Tool
 
@@ -50,18 +54,6 @@ streamlit run app.py
 ```
 
 The tool allows browsing and filtering the five governance records by domain, consent type, and permitted-use flags, and creating new records through a guided form.
-
-## Schema
-
-The schema has five sections:
-
-| Section        | Required fields                              | Optional fields                  |
-|----------------|----------------------------------------------|----------------------------------|
-| Identification | dataset_id, title, domain                    | geography                        |
-| Consent        | consent_type, scope, documented              | consent_language                 |
-| Permitted use  | research, commercial, model_training, redist | use_restrictions                 |
-| Provenance     | collector_org                                | dates, version, last_updated     |
-| Audit          | —                                            | contact, review_date, notes      |
 
 ## Licence
 
